@@ -1,4 +1,6 @@
-let head = document.querySelector("#head")
+let hour = document.querySelector("#hour")
+let minute = document.querySelector("#minute")
+let second = document.querySelector("#second")
 let button = document.querySelector("#button")
 
 
@@ -12,3 +14,4 @@ function startTimer() {
         } , 1000) 
     console.log(timer);
 }
+

@@ -4,11 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="clock">
-        <h1 id="head">0</h1>
-        <button id="button" onclick="startTimer()">Start</button>
+        <span id="hour">00</span>
+        <span>:</span>
+        <span id="minute">00</span>
+        <span>:</span>
+        <span id="second">00</span>
+    </div>
+    <div id="btns">
+        <button onclick="startTimer()">Start</button>
+        <button onclick="EndTimer()">End</button>
+        <button onclick="resetTimer()">Reset</button>
     </div>
     <script src="./app.js"></script>
 </body>
